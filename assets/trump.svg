@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 220" role="img" aria-label="Stylized Trump portrait">
+  <defs>
+    <linearGradient id="suit" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#26364f"/>
+      <stop offset="1" stop-color="#111824"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f2b178"/>
+      <stop offset="1" stop-color="#d88755"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1">
+      <stop offset="0" stop-color="#f1d07b"/>
+      <stop offset="1" stop-color="#c99532"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#10151f" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#softShadow)">
+    <path d="M43 214c5-42 24-69 49-69s44 27 49 69H43Z" fill="url(#suit)"/>
+    <path d="M78 149h26l8 38-21 21-21-21 8-38Z" fill="#fff7ec"/>
+    <path d="M88 164h8l8 39-12 12-12-12 8-39Z" fill="#9f343a"/>
+    <path d="M50 212c4-30 14-49 30-60l12 56-22-19-8 23H50Z" fill="#1c2940"/>
+    <path d="M130 212c-4-30-14-49-30-60l-12 56 22-19 8 23h12Z" fill="#1c2940"/>
+    <path d="M132 76c10 3 14 13 10 25-3 10-9 15-16 14L132 76Z" fill="#d88755"/>
+    <path d="M48 76c-10 3-14 13-10 25 3 10 9 15 16 14L48 76Z" fill="#d88755"/>
+    <path d="M48 72c0-35 18-57 43-57 25 0 43 22 43 57v35c0 31-18 52-43 52-25 0-43-21-43-52V72Z" fill="url(#face)"/>
+    <path d="M50 66c11-28 31-40 58-35 12 2 22 10 29 24-15-8-28-10-40-7 9 3 19 9 29 18-27-10-51-8-73 5l-3-5Z" fill="url(#hair)"/>
+    <path d="M43 71c6-32 25-53 53-60 17 0 30 7 39 20-17-5-33-3-48 4-17 8-31 20-44 36Z" fill="url(#hair)"/>
+    <path d="M64 89c8-5 17-5 27-1M99 88c10-4 19-3 27 2" fill="none" stroke="#6f4b30" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="78" cy="100" r="3.5" fill="#223047"/>
+    <circle cx="111" cy="100" r="3.5" fill="#223047"/>
+    <path d="M94 98c-2 10-4 18-7 25h13" fill="none" stroke="#a56343" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M78 133c9 4 19 4 28 0" fill="none" stroke="#7f382f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M55 78c20-12 41-15 65-7" fill="none" stroke="#f7dc92" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  </g>
+</svg>
